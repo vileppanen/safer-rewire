@@ -1,9 +1,10 @@
 {
   "name": "safer-rewire",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "description": "Wrapper for rewire, providing additional functions that ensure the mocked functionality is replaced rather than added in to the tested module",
   "main": "index.js",
   "repository": { "type": "git", "url": "https://github.com/vileppanen/safer-rewire" },
+  "readme": "",
   "engines" : { "node" : ">=7.0.0" },
   "dependencies": {},
   "devDependencies": {
