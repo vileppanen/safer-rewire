@@ -4,5 +4,5 @@ This micro-lib provides a wrapper for rewire, exposing additional functions that
 
 ## Motivation
 
-Idea for this project arose when encountered this https:[issue](https://github.com/jhnns/rewire/issues/182) in `rewire` library. After opening discussion of it, out of curiosity whipped up this lib to experiment whether more safer rewiring could be easily achieved, by leveraging the functionality inside `rewire` library.
+Idea for this project arose when encountered this [issue](https://github.com/jhnns/rewire/issues/182) in `rewire` library. After opening discussion of it, out of curiosity whipped up this lib to experiment whether more safer rewiring could be easily achieved, by leveraging the functionality inside `rewire` library.
 
