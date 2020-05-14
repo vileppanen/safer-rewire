@@ -1,4 +1,4 @@
-const rewire = require('../src/safer-rewire')(require('rewire'))
+const rewire = require('../dist/bundle')(require('rewire'))
 const { rewiredModule, __replaceWith__ } = rewire('../tested-modules/foo')
 
 describe('safer-rewire module', () => {

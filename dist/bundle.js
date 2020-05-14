@@ -1,3 +1,5 @@
+'use strict'
+
 const keyExists = (rewiredModule, key) => {
   try {
     rewiredModule.__get__(key)
@@ -36,4 +38,8 @@ const saferRewireFn = rewire => moduleToRewire => {
   }
 }
 
-module.exports = saferRewireFn
+var saferRewire = saferRewireFn
+
+var src = saferRewire
+
+module.exports = src
