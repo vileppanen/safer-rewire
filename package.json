@@ -22,6 +22,7 @@
     "mocha": "^7.1.2",
     "rewire": "^5.0.0",
     "rollup": "^2.10.0",
+    "rollup-plugin-terser": "^5.3.0",
     "sinon": "^9.0.2",
     "sinon-chai": "^3.5.0",
     "standard": "^14.3.4"
@@ -31,10 +32,8 @@
   },
   "scripts": {
     "build": "rollup -c",
-    "postbuild": "npm run lint -- --fix",
     "pretest": "npm run build",
-    "test": "mocha tests/*.test.js --require tests/setupTests.js",
-    "lint": "standard"
+    "test": "mocha tests/*.test.js --require tests/setupTests.js"
   },
   "author": "Ville Leppänen",
   "license": "MIT",

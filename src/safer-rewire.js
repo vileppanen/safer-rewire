@@ -1,7 +1,7 @@
 const keyExists = (rewiredModule, key) => {
   try {
-    rewiredModule.__get__(key)
-    return true
+    const foundKey = rewiredModule.__get__(key)
+    return !!foundKey
   } catch (err) {
     return false
   }
