@@ -10,6 +10,12 @@
     "type": "git",
     "url": "https://github.com/vileppanen/safer-rewire"
   },
+  "keywords": [
+    "testing",
+    "mocking",
+    "rewire",
+    "wrapper"
+  ],
   "engines": {
     "node": ">=7.0.0"
   },
