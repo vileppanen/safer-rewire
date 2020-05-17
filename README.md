@@ -1,5 +1,7 @@
 #  safer-rewire
 
+[![build status](https://travis-ci.com/vileppanen/safer-rewire.svg?branch=master)](https://travis-ci.com/vileppanen/safer-rewire)
+
 This micro-lib provides a wrapper for rewire, exposing additional functions that ensure the mocked functionality is replaced rather than added in to the tested module
 
 ## Motivation
