@@ -1,6 +1,6 @@
 {
   "name": "safer-rewire",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "Wrapper for rewire, providing additional functions that ensure the mocked functionality is replaced rather than added in to the tested module",
   "main": "dist/bundle.js",
   "files": [
@@ -17,7 +17,7 @@
     "wrapper"
   ],
   "engines": {
-    "node": ">=7.0.0"
+    "node": ">=10.0.0"
   },
   "dependencies": {},
   "devDependencies": {
